@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test"> <!-- Full Regression -->
+    <classes>
+      <class name="com.sdet44.practice.TestNGPractice1"/>
+      <class name="com.sdet44.practice.TestNGClass"/>
+      <class name="com.sdet44.practice.TestNGPractice2"/>
+      <class name="com.sdet44.practice.TestNGDataProviderPractice1"/>
+      <class name="com.sdet44.practice.TestNGDataProviderPractice2"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Suite"> <!-- Parallel Execution With class mode -->
+  <test thread-count="5" parallel="classes" name="Test">
+    <classes>
+      <class name="com.sdet44.practice.practiceParallelExecution2"/>
+      <class name="com.sdet44.practice.practiceParallelExecution3"/>
+      <class name="com.sdet44.practice.practiceParallelExecution"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.sdet44.practice"},{"l":"com.vtiger.contacts"},{"l":"com.vtiger.genericUtility"},{"l":"com.vtiger.objectRepository"},{"l":"com.vtiger.organization"}];updateSearchResults();

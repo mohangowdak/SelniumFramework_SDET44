@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+<listeners>
+<listener class-name="com.vtiger.genericUtility.ListnerImplementation"/>
+<listener class-name="com.vtiger.genericUtility.TransformRetryToListener"/>
+</listeners>
+  <test thread-count="5" parallel="tests" name="Test">
+    <classes>
+      <class name="com.sdet44.practice.TestNGPractice5"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" parallel="tests" name="Test1">
+    <classes>
+      <class name="com.sdet44.practice.TestNGPractice4"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" parallel="tests" name="Test2">
+    <classes>
+      <class name="com.sdet44.practice.TestNGPractice6"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

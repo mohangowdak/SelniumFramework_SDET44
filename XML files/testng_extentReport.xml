@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+<listeners>
+<listener class-name="com.vtiger.genericUtility.ListnerImplementation"/>
+
+</listeners>
+  <test thread-count="5" name="Test">
+  <parameter name="browser" value="chrome" />
+		<parameter name="url" value="http://localhost:8888" />
+		<parameter name="username" value="admin" />
+		<parameter name="password" value="admin_password" />
+    <classes>
+      <class name="com.sdet44.practice.TestNGPractice1"/>
+      <class name="com.sdet44.practice.TestNGPractice4"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Test1">
+  <parameter name="browser" value="chrome" />
+		<parameter name="url" value="http://localhost:8888" />
+		<parameter name="username" value="admin" />
+		<parameter name="password" value="admin_password" />
+    <classes>
+      <class name="com.sdet44.practice.TestNGPractice3"/>
+      <class name="com.sdet44.practice.TestNGPractice2"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
