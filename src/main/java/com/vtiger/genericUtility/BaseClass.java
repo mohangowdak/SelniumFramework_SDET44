@@ -12,7 +12,7 @@ import com.vtiger.objectRepository.CommonPage;
 import com.vtiger.objectRepository.LoginPage;
 
 public class BaseClass extends BaseClassVariables{
-	
+	//workspace 2
 
 	/**
 	 * create object for generic utility
