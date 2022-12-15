@@ -14,6 +14,7 @@ import com.vtiger.objectRepository.LoginPage;
 public class BaseClass extends BaseClassVariables{
 	//workspace 2
 	//workspace 1
+	//modified by workspace1
 
 	/**
 	 * create object for generic utility
