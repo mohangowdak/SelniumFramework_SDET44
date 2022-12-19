@@ -4,7 +4,7 @@ import org.openqa.selenium.WebDriver;
 
 import com.vtiger.objectRepository.CommonPage;
 import com.vtiger.objectRepository.LoginPage;
-
+//
 public class BaseClassVariables {
 	protected ExcelUtility excelUtility;
 	protected FileUtility fileUtility;
