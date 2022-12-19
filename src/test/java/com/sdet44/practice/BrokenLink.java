@@ -14,6 +14,7 @@ import com.vtiger.genericUtility.WebDriverUtiltiy;
 
 public class BrokenLink {
 	public static void main(String[] args) throws IOException {
+		//UPDATED 
 		WebDriverUtiltiy webDriverUtiltiy=new WebDriverUtiltiy();
 		WebDriver driver = webDriverUtiltiy.launchApplication("chrome", 10, "https://facebook.com");
 		List<WebElement> listOfLink = driver.findElements(By.xpath("//a"));
