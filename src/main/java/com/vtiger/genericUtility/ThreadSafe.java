@@ -1,7 +1,7 @@
 package com.vtiger.genericUtility;
 
 import com.aventstack.extentreports.ExtentTest;
-
+//
 public class ThreadSafe {
 	
 	private static ThreadLocal<WebDriverUtiltiy> webdriverUtiliy=new ThreadLocal<>();
