@@ -15,6 +15,10 @@ public class BaseClass extends BaseClassVariables{
 	//workspace 2
 	//workspace 1
 
+	//baseclass updated by workspace2
+
+	//modified by workspace1
+
 	/**
 	 * create object for generic utility
 	 * read data from property file	
